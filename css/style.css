@@ -1,0 +1,70 @@
+section {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p:nth-child(odd){
+    background: cornflowerblue;
+}
+
+
+section{
+    color: cornsilk;
+}
+
+section section {
+    color: darkblue;
+    flex-direction: initial;
+}
+
+section section section {
+    color: black;
+}
+
+section:hover {
+    color: darkorange;
+}
+
+section section:hover {
+    color: darkorchid;
+}
+
+section section section :hover {
+    color: firebrick;
+}
+
+ul ol {
+    font-size: 17px;
+    font-family: Verdana;
+}
+
+ul ol {
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    background-color: fuchsia;
+}
+
+ul li {
+    list-style: circle;
+}
+
+ol{
+    background-color: greenyellow;
+    list-style-type: decimal-leading-zero
+}
+
+/* las clases las llamos con .nombreClase, los id con #nombre y las etiquetas solas (a, li, ul, div, p, ol) */
+
+#images1 img {
+    width: 250px;
+    padding: 15px 15px 50px 15px;
+    background-color: white;
+   Border-color:red;
+   Border-width: 10px;
+   border-style: solid;
+  }
+  
+
